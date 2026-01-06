@@ -34,7 +34,7 @@ body {
 
 .maintext .title-line {
   font-weight: 500;         /* 첫 줄만 Bold */
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .maintext p {
