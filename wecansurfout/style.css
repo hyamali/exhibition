@@ -25,11 +25,11 @@ body {
 
 .maintext .title-line {
   font-weight: 500;         /* 첫 줄만 Bold */
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .maintext p {
-  font-size: 10px;
+  font-size: 13px;
   margin: 1px 0;
 }
 

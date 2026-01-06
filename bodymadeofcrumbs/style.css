@@ -24,11 +24,11 @@ body {
 
 .maintext .title-line {
   font-weight: 500;         /* 첫 줄만 Bold */
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .maintext p {
-  font-size: 10px;
+  font-size: 13px;
   margin: 1px 0;
 }
 
@@ -198,71 +198,4 @@ footer {
   bottom: 0;
   left: 5px;
   width: 100%;
-}
-
-@media screen and (max-width: 704px) {
-
-  /* 기본 정렬 */
-  body {
-    margin: 0 !important;
-    padding: 10px !important;
-  }
-
-  /* 제목 */
-  h1 {
-    top: 5px !important;
-    font-size: 12pt !important;
-  }
-
-  /* 상단 가로선 */
-  .top-line {
-    height: 40px !important;
-  }
-
-  /* 메뉴를 화면 위쪽 가로로 정렬 */
-  .menu {
-    top: 45px !important;
-    left: 0 !important;
-    right: 0 !important;
-    width: 100% !important;
-
-    flex-direction: row !important;
-    justify-content: center !important;
-
-    gap: 15px !important;
-    padding: 8px 0 !important;
-
-    background: white !important;
-  }
-
-  /* 메뉴 글자 크기 */
-  .menu a, 
-  .menu summary {
-    font-size: 12px !important;
-  }
-
-  /* 메뉴 뒤 흰색 박스 제거 */
-  .menu-bg {
-    display: none !important;
-  }
-
-  /* 세로선 제거 */
-  .menu::after {
-    display: none !important;
-  }
-
-  /* content 여백 조정 */
-  .content {
-    margin: 0 !important;
-    padding-top: 100px !important;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-  }
-
-  /* footer 조정 */
-  footer {
-    font-size: 11px !important;
-    left: 10px !important;
-    bottom: 10px !important;
-  }
 }
